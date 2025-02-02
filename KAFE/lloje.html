@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llojet e Kafes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            
+            background-image: url("images/banner-bg.png");
+            background-size: cover;
+            }
+       
+        
+        h1{ color: white;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 70px;
+        }
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+      .coffee {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 30%; /* Rregullon gjatësinë dhe gjerësinë për ekranet e ndryshme */
+            max-width: 300px; /* Limitojmë gjerësinë maksimale të kafes */
+        }
+        img {
+            width: 100%; /* Bëjme imazhet të zënë tërë gjerësinë e kutisë së kafes */
+            border-radius: 5px;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        </style>
+</head>
+<body>
+
+<h1>Llojet e Kafes</h1>
+<div class="flex-container">
+    <div class="coffee">
+        <h2>Espresso</h2>
+        <img src="images/kafe1.jpg" alt="Espresso">
+        <p>Espresso është një kafe e fortë, e bërë duke kaluar ujë të nxehtë nën presion përmes kafes së bluar. Një bazë e shkëlqyer për kafet e tjera.</p>
+    </div>
+    <div class="coffee">
+        <h2>Latte</h2>
+        <img src="images/kafe2.jpg" alt="Latte">
+        <p>Latte është një përzierje e ekspresos me qumësht të ngrohtë dhe një shtresë të lehtë të fuqishme. Shpesh zbukurohet me art latte.</p>
+    </div>
+    <div class="coffee">
+        <h2>Cappuccino</h2>
+        <img src="images/kafe3.jpg" alt="Cappuccino">
+        <p>Cappuccino përmban të njëjtën sasi espresso, qumësht të ngrohtë dhe mjaltë të shkumëzuar. Një përzierje perfekte e shijes dhe teksturës.</p>
+    </div>
+    <div class="coffee">
+        <h2>Mocha</h2>
+        <img src="images/kafe4.jpg" alt="Mocha">
+        <p>Mocha është një kombinim i ekspresos, qumështit dhe çokollatës. Një ëmbëlsirë e shkëlqyer për adhuruesit e çokollatës.</p>
+    </div>
+    <div class="coffee">
+        <h2>Americano</h2>
+        <img src="images/kafe5.jpg" alt="Americano">
+        <p>Americano është një kafe e bërë duke shtuar ujë të nxehtë mbi espresso, duke i dhënë një shije më të butë se espresso.</p>
+    </div>
+</div>
+
+</body>
+</html>
